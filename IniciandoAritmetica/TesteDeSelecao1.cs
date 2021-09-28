@@ -26,9 +26,10 @@ class MinhaClasse {
 
         // Implemente a condição abaixo para ter o resultado esperado
         if (b > c && d > a && (c + d) > (a + b) && (c > 0 && d > 0) && (a % 2 == 0))
-		{
+		    {
           Console.WriteLine("Valores aceitos");
-        } else 
+        } 
+        else 
         {
           Console.WriteLine("Valores nao aceitos");
         }
